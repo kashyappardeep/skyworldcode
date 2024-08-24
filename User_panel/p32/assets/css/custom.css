@@ -1,0 +1,468 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ a.hover{
+    text-decoration: none;
+ }
+
+select.form-control.d-inline.ml-2 {
+    height: 38px;
+    margin: 0px 0px 0px 5px;
+}
+.data_save {
+    margin-left: 22px;
+}
+/********* promoter_page_css **********/
+.form-control{
+    margin-bottom:0px !important;
+    webkit-appearance: auto;
+    appearance: auto;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(237 242 243 / 62%) !important;
+    border-color: #0a404c63 !important;
+}
+
+.user_main_title {
+    padding: 30px;
+    position: relative;
+    background: #ab9f9f;
+    margin-bottom: 20px;
+}
+
+.user_page_title_wrapper p {
+    margin-bottom: 0;
+}
+
+.user_main_card {
+    background:#e5eae9;
+    border-radius: 4px;
+    border-radius:6px;
+     border: 1px solid #dddde5;
+   /* box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 5%), 
+                 0 0.9375rem 1.40625rem rgb(4 9 20 / 3%),
+                  0 0.25rem 0.53125rem rgb(4 9 20 / 5%), 
+                  0 0.125rem 0.1875rem rgb(4 9 20 / 3%);
+   */
+}
+
+.user_card_body {
+    flex: 1 1 auto;
+    padding: 20px;
+}
+
+h5.user_card_title {
+    text-transform: uppercase;
+    color: rgba(13,27,62,0.7);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+label.label_user_title {
+    font-size: 14px;
+     margin-bottom:5px;
+}
+
+input.form-control.user_input_text {
+    font-size: 14px;
+    margin-bottom:0px;
+}
+
+select.form-control.user_input_select {
+    font-size: 14px;
+    margin-top:0px;
+    
+}
+.user_main_card.mb-3.detail_data_pins form {
+    width: 50%;
+}
+.user_form_row_data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.user_submit_button {
+    margin-left: 7px;
+}
+
+input.user_btn_button {
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 14px;
+    font-weight: 500;
+    background:  var(--second) !important;
+    color: var(--first) !important;
+}
+
+/* main_card_2 */
+.user_card_header {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 1px;
+    background: white;
+    height: 3.5rem;
+    padding-left: 8px;
+    text-transform: uppercase;
+    color: rgba(13,27,62,0.7);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table.user_table_info td {
+    padding: 6px;
+}
+
+td.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+td.right span {
+    font-size: 14px;
+}
+
+.user_card_header {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 1px;
+    background: white;
+    height: 3.5rem;
+    padding-left: 8px;
+    text-transform: uppercase;
+    color: rgba(13,27,62,0.7);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table.user_table_info td {
+    padding: 6px;
+}
+
+
+select.form-control.user_input_select.data_record {
+    width: 49px;
+    height: 30px !important;
+    margin-left: 9px;
+    padding: 5px 10px;
+}
+
+td.right span {
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: rgba(0,0,0,0);
+    font-size: .8rem;
+   
+}
+table th, table td {
+    padding: 0.55rem;
+    vertical-align: top;
+    border-top: 1px solid #aeb1b5;
+    vertical-align: middle;
+}
+table.user_table_info td {
+    background: #bee7ff;
+}
+.user_table_data {
+    overflow: auto;
+}
+
+/* pagination */
+.pagination_link ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    margin: 0;
+}
+
+.pagination_link ul li a {
+    position: relative;
+    display: block;
+    padding: 8px 12px;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+
+/* change_password_page_css */
+h3.user_card_title {
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+}
+
+.card_body_header_content {
+   background:  var(--first) !important;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.user_card_body.user_content_page {
+    padding: 0px;
+}
+
+.user_form_row.user_form_content{
+    padding: 10px 20px;
+}
+.user_form_row_data.user_form_content{
+ padding-left:20px;
+}
+
+/**** reward_page_design *****/
+
+.reward_detail_page {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.excel_button_user button {
+    background-color: var(--first) !important;
+    border-color: var(--first) !important;
+    padding: 10px 16px;
+    border-radius: 0.25rem;
+    border: none;
+    white-space: nowrap;
+}
+
+.excel_button_user button span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.excel_button_user button span i {
+    margin-right: 8px;
+}
+
+.serch_bar_ecxel {
+    display: flex;
+    align-items: center;
+}
+
+.serch_bar_ecxel span {
+    margin-right: 6px;
+}
+
+/* Report_page_design */
+
+.report_detail_data {
+    text-align: center;
+}
+
+.report_detail_data h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+/* fliter_css */
+h5.user_card_title.filter_title {
+    font-size: 18px;
+}
+
+h5.user_card_title.filter_title i {
+    margin-right: 5px;
+}
+h5.user_card_title.filter_title {
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    background: var(--first) !important;
+    color: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/* widthrwal_css */
+
+.report_detail_data.widthrawal_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dddde5;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.widthrwal_report_user p {
+    margin: 0;
+}
+
+.widthrwal_report_user h3 {
+    font-size: 16px;
+}
+
+/*order_page_css*/
+button.view_detail_data {
+    background:  var(--second) !important;
+    color: var(--first) !important;
+    border:none;
+    padding: 6px;
+}
+
+
+
+/* pins_request */
+.user_main_card.mb-3.detail_data_pins {
+    display: flex;
+}
+
+.counting_of_pins {
+    width: 50%;
+}
+
+
+/*.user_card_body.user_content_page.pins_detail {
+    width: 50%;
+}*/
+
+table.user_table_info_record.pin_record td, th {
+    /*border: 1px solid #dddde5;
+    border-top:1px solid #dddde5 !important;*/
+}
+
+input.form-control.user_input_text.checkbox_data {
+    width: 21px;
+    height: 15px;
+}
+button.detail_pin_button {
+    margin: auto;
+    display: block;
+    background: var(--second) !important;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--first) !important;
+}
+
+
+  
+ /*pin_tranfer*/
+  .excel_button_user p {
+    background-color: var(--first) !important;
+    border-color: var(--first) !important;
+    padding: 10px 16px;
+    border-radius: 0.25rem;
+    border: none;
+    margin: 0;
+}
+
+.excel_button_user p span {
+    color: #fff;
+}
+
+.excel_button_user p span i {
+    margin-right: 5px;
+}
+
+/* proflie_page */
+  h5.user_card_title.profile_edit i {
+    background: var(--second) !important;
+    padding: 14px;
+    font-size: 24px;
+    color:var(--first) !important;
+}
+
+h6.profile_information_heading {
+    margin: 20px 0px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: 12px 0px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+/* edit_profile_page */
+.user_detail_lines ul li {
+    display: flex;
+    align-items: baseline;
+}
+
+.user_detail_lines ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user_detail_lines ul li i {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.user_detail_lines ul li p {
+    font-size: 12px;
+}
+
+button.detail_pin_button.edit_button {
+    margin: 0;
+    display: block;
+}
+
+h5.user_card_title.edit_title {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    background: var(--first) !important;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color:#fff;
+}
+
+h5.user_card_title.edit_title i {
+    margin-right: 7px;
+}
+
+/*sponser_detial*/
+
+
+p.support_detsil_para {
+    color: #fff;
+    margin: 0;
+    padding: 4px 10px;
+}
+h5.user_card_title.support_detail {
+    font-size: 18px;
+}
+
+/*media_query_for_all_pages*/
+@media screen and (max-width: 768px) {
+    .user_card_body.user_content_page.pins_detail{
+        width:100%;
+    }
+    .counting_of_pins{
+        width:100%;
+    }
+    .user_main_card.mb-3.detail_data_pins {
+        display: flex;
+        flex-direction: column;
+    }
+    .reward_detail_page{
+        flex-direction: column;
+    }
+    .serch_bar_ecxel{
+        display:block;
+    }
+  }

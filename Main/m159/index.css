@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary: #0B5394;
+    --btnText: #fff;
+    --textColor: #666666;
+    --textHeading: #000;
+}
+
+.emailpage {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px 0px;
+    background: #FAFAFA;
+}
+
+.emailDiv {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    background: white;
+    /* box-shadow: 0px 0px 3px 0px var(--primary); */
+}
+
+#anim {
+    width: 200px;
+    margin: auto;
+}
+
+#logo {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--btnText);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contentDiv {
+    padding: 0px 40px;
+}
+
+.contentDiv h4 {
+    color: var(--textHeading);
+    font-size: 25px;
+}
+
+.contentDiv p {
+    margin-top: 15px;
+    color: var(--textColor);
+    font-size: 16px;
+    font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif;
+    line-height: 24px;
+    color: #666666;
+    text-align: center;
+}
+
+.contentDiv span {
+    color: var(--textColor);
+    font-size: 12px;
+}
+
+.codeBtn {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    color: var(--btnText);
+    letter-spacing: 4px;
+    font-size: 24px;
+    display: block;
+    cursor: copy;
+}
+
+.codePrimary {
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px 14px;
+    border-radius: 5px;
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    color: var(--btnText);
+    font-size: 12px;
+    display: block;
+
+}
+
+.socialMedia div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    gap: 10px;
+}
+
+.socialMedia h5 {
+    margin-top: 10px;
+}
+
+.socialMedia div img {
+    width: 20px;
+}
+
+.socialMedia p {
+    color: var(--textColor);
+    font-size: 12px;
+}
+
+.haveQuestion {
+    padding: 20px;
+    padding-bottom: 30px;
+    background: var(--primary);
+    color: var(--btnText);
+    text-align: left;
+    margin-top: 30px;
+}
+
+.haveQuestion h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.haveQuestion p {
+    font-size: 14 px;
+    font-weight: 300;
+}
+
+.moreInfo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.moreInfo a {
+    flex: 1;
+    color: var(--primary);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.moreInfo a:nth-child(2) {
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+}
+
+#smallText {
+    font-size: 12px;
+    color: var(--textColor);
+    padding: 0px 40px;
+}

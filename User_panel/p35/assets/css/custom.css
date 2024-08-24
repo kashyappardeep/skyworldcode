@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Oswald:wght@200;300;400;500;600;700&family=Play:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,600&family=Raleway:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+:root {
+    --box-bg:#181b23;
+	--white-color: #fff;
+	--yellow-color:#ffa500;
+}
+
+
+/************ Invite-page-css **********/
+section.invite_page {
+    background: #000;
+}
+
+.invite_inner_side h1 b {
+    color: var(--yellow-color);
+}
+
+.invite_page_content_text {
+    text-align: center;
+}
+
+.invite_inner_side img {
+    width: 100%;
+}
+
+.invite_inner_side h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--white-color);
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+
+.text_user_referal {
+    margin: 20px 0px;
+    position: relative;
+}
+
+.text_user_referal input {
+    width: 100%;
+   background: var(--box-bg);
+    border: none;
+    padding: 6px 40px 6px 5px;
+   color: var(--white-color);
+   font-size: 14px;
+}
+
+.text_user_referal i {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    color: var(--yellow-color);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social_icons ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.social_icons ul li {
+    margin-right: 15px;
+}
+
+.social_icons ul li a i {
+    background:var(--yellow-color);
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+   color: var(--white-color);
+    font-size: 25px;
+    line-height: 42px;
+}
+
+/********** Membership-page-css ************/
+
+section.membership_page {
+    background: #000;
+}
+
+.package_heading {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.package_heading h2 {
+   color: var(--white-color);
+    font-size: 32px;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+.package_heading span {
+    color: var(--yellow-color);
+    text-transform: capitalize;
+}
+
+.member_page_content {
+    padding: 20px;
+    margin-bottom: 15px;
+   background: var(--box-bg);
+    border:1px solid #f4f4f41f;
+}
+
+.member_detail_package ul {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.member_detail_package ul li {
+   color: var(--white-color);
+    padding-bottom: 10px;
+}
+
+.member_detail_package ul li h4  {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--yellow-color);
+    font-weight: 600;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member_detail_package ul li h6  {
+    font-size: 16px;
+    text-transform: capitalize;
+   color: var(--white-color);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member_detail_package ul li h6 span {
+    font-size: 14px;
+}
+
+button.buy_membership {
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    background:var(--yellow-color);
+    border: none;
+    cursor: pointer;
+}
+.member_detail_package ul li h4 span {
+    font-size: 16px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background: var(--box-bg);
+}
+
+.membership_table_desc {
+    overflow-x: auto;
+    margin-bottom:15px;
+}
+
+.membership_table_desc tr th {
+    background:var(--yellow-color);
+     color:#000;
+}
+
+.membership_table_desc tr{
+ text-align: center;
+}
+
+td, th {
+    border: 1px solid #d0cece29;
+    text-align: center;
+    padding: 8px;
+   color: var(--white-color);
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+/* Widthraw-page-css */
+
+section.widthraw_page {
+    background: #000;
+}
+
+.widthraw_heading {
+    background: linear-gradient(45deg,#f23b3b,#ef9027);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.widthraw_heading_text {
+    text-align: center;
+}
+
+.widthraw_heading_text h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.list_widthraw ul li p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: var(--white-color);
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.list_widthraw ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list_widthraw ul li p span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.widthraw_heading_payout_request h3 {
+    font-size: 28px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widthraw_heading_payout_request span {
+    font-size: 16px;
+}
+
+.form_widthrwa_request label {
+    display: block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form_widthrwa_request input {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button.amount_data {
+    background: #343232;
+    border: none;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/*Topup page css*/
+
+.form_topup {
+    background: var(--bgColor) !important;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 5px orange;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+input.user_btn_button.btn-remove.detail {
+    background: var(--yellow-color) !important;
+    padding: 10px 14px;
+    border-radius: 2px;
+    border: none;
+}
+
+.pin_topup_page {
+    margin-top: 75px;
+}
+
+.form-group label {
+    color: #c3c1c1;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+
+/*earning_buttons*/
+
+.earning_link {
+    text-align: center;
+    background: var(--yellow-color);
+    padding: 10px 6px;
+    border-radius: 2px;
+ }
+
+.earning_link a {
+  color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+
+.eraning_link_data {
+    margin-bottom: 20px;
+}
+
+
+li.breadcrumb-item.active {
+    color: #fff;
+}
+
+.data_matrix {
+    margin-top: 100px;
+}
+
+.page_profile {
+    margin-top: 120px;
+}
+
+.user_content {
+    margin-top: 120px;
+}

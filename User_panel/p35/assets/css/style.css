@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --colorPrimary: #6057c4;
+    --bgColor: #181b23;
+    --textColor: #fff;
+    --bodybg: #282c47;
+    --textPrimaryColor: #b571f3;
+    --grident:linear-gradient(90deg,#a146e8 0%,#6c63d0 35%,#387db8 100%);
+}
+body {
+    background: #000 !important;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+.headerDiv {
+    background: var(--bgColor);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.headerTabActive p {
+    color: var(--textPrimaryColor) !important;
+}
+.logowithnav {
+    display: flex;
+}
+.headerRight {
+    align-items: center;
+    color: var(--textColor);
+    display: flex;
+}
+.topNavTabs {
+    display: flex;
+    margin-top: 10px;
+}
+.headerDiv img {
+    cursor: pointer;
+    width: 80px;
+}
+.topNavTabs p {
+    align-items: center;
+    color: var(--textColor);
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 7px;
+    position: relative;
+}
+.headerRight>img {
+    margin-right: 10px;
+    width: 40px;
+    cursor: pointer;
+}
+.headerInner>h5 {
+    font-size: 1rem;
+    margin: 0;
+}
+.headerInner>p {
+    font-size: .7rem;
+    letter-spacing: .5px;
+    margin: 0;
+}
+
+.main-sec {
+    margin-top: 120px;
+}
+.dashboard-card {
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    transition: all .5s;
+    color: var(--textColor);
+    padding: 20px 0 0;
+}
+.frst-card {
+    background: linear-gradient(45deg, rgb(242, 59, 59) 0%, rgb(239, 144, 39) 100%);
+}
+.scnd-card {
+    background: linear-gradient(45deg, rgb(4, 171, 17) 0%, rgb(125, 214, 29) 100%);
+}
+.thrd-card {
+    background: linear-gradient(44deg, rgb(33, 64, 220) 0%, rgb(0, 191, 213) 100%);
+}
+.frth-card {
+    background: linear-gradient(-135deg, rgb(41, 37, 166) 0%, rgb(178, 80, 209) 100%);
+}
+.card-content {
+    padding:  0 20px;
+}
+.card-content i {
+    font-size: 39px;
+}
+.dashboard-card img {
+    opacity: 0.2;
+    width: 100%;
+    pointer-events: none;
+}
+marquee {
+    border-radius: 5px;
+    margin-top: 10px;
+    background: rgb(24, 27, 35);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+canvas#pie-chart {
+    width: 800px !important;
+    height: 400px !important;
+}
+.ntwrk-col {
+    background: linear-gradient(1deg,#2925a6,#b250d1);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 25px 0 20px;
+}
+.ntwrk-col a {
+    color: var(--textColor);
+}
+.ntwrk-col i {
+    font-size: 39px;
+}
+.networkCard {
+    background: var(--bgColor);
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #888;
+    margin-bottom: 20px;
+    padding: 20px 40px 10px!important;
+}
+.networkCard h2 {
+    color: var(--textColor);
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.networkCard h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.networkCard p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.data-sec {
+    margin-bottom: 100px;
+}
+.tableDiv {
+    background: var(--bgColor);
+    border-radius: 10px;
+    padding: 10px;
+}
+.tableDiv>h3 {
+    color: var(--textColor);
+    margin-bottom: 20px;
+    text-align: center;
+}
+table, td, tr {
+    border: 1px solid #ccc!important;
+    color: var(--textColor);
+}
+table, td, th, tr {
+    padding: 5px 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+table {
+    background: var(--bgColor);
+    width: 100%;
+}
+th {
+    background: var(--textPrimaryColor);
+    color: #201c1c;
+}
+#noData {
+    align-items: center;
+    color: #ccc;
+    display: flex;
+    font-size: 15px;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footerDiv {
+    align-items: center;
+    background: var(--bgColor);
+    bottom: 0;
+    box-sizing: border-box;
+    display: none;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+.bottomNavCol i {
+    color: var(--textColor);
+    font-size: 20px;
+}
+.bottomNavCol p {
+    color: var(--textColor);
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+.earning-sec,
+.network-sec{
+    margin-top: 120px;
+}
+.formContainer {
+    background: var(--bgColor);
+    border-radius: 5px;
+    padding: 35px 20px 20px;
+}
+.formContainer input, .formContainer select {
+    background: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #555;
+    font-size: 15px;
+    outline: none;
+    padding: 5px 10px;
+    width: 100%;
+    height: 42px;
+}
+.btnPrimary {
+   background: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    padding: 10px 20px;
+    transition: all .5s;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+}
+.earningTable {
+    background: var(--bgColor);
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 5px orange; */
+    margin-top: 20px;
+    overflow-x: auto;
+    padding: 20px;
+}
+.earningTableHeading {
+    display: flex;
+    justify-content: space-between;
+}
+.earningTableHeading p {
+    color: orange;
+}
+
+.networkButton>button {
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.account-sec{
+    margin-top: 120px;
+}
+.mailAboutDiv {
+    background: var(--bgColor);
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 5px orange;
+    padding: 20px;
+}
+.aboutDiv {
+    display: flex;
+}
+.aboutDiv h5 {
+    color: orange;
+    font-size: 17px;
+}
+.aboutDiv p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.bg, .mainAccountLeftCol {
+    background: var(--bgColor);
+}
+.mainAccountLeftCol {
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 5px orange;
+    height: 100%;
+    padding: 20px;
+}
+.accountLeftCol img {
+   
+    width: 100%;
+}
+.accountLeftCol h3 {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.accountLeftCol p {
+    color: var(--textColor);
+    text-align: center;
+}
+.accountLeftCol p span {
+    color: green;
+}
+.accountLeftCol button {
+    margin: 0 5px;
+    width: auto;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .headerInner>h5, .headerInner>p, .topNavTabs {
+        display: none;
+    }
+    canvas#pie-chart {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .footerDiv {
+        display: block;
+    }
+    .aboutRow {
+        flex-wrap: wrap-reverse !important;
+    }
+}
